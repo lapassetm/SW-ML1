@@ -1,0 +1,93 @@
+/* aplica reglas css a toda la página  */
+body{
+    background-color: rgb(240, 142, 232); /* color de fondo */ 
+    color: azure; /* cambia el color de la letra en toda la pagina web */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* familia tipográfica  */
+}
+
+h1{
+   color: rgb(51, 146, 242);
+   text-align: center; /* alineación de texto */ 
+
+}
+
+h2{
+    color: rgb(4, 89, 104);
+    border-bottom: 2px solid
+}
+
+/* Texto de Párrafo  */
+p{
+    font-size: 18px;
+    line-height: 1,5; /*interlineado*/
+}
+
+/*link*/
+a{
+    color: beige;
+    text-decoration: none; /*los links por defecto se ven en color blanco y subrayado, esto elimina esa caractersitica*/
+}
+
+/*imágenes*/
+img{
+    width: 300px;
+    height: auto; /*automático para que no se deforme*/
+}
+/*class para el titulo de las peliculas*/
+
+.titulo-peliculas {
+    color: darkgreen;
+    border-bottom: solid 2px green; 
+}
+
+.titulo-helados{
+    color: indigo;
+    border: dashed indigo;
+}
+
+.titulo-musica{
+    color: darkolivegreen;
+    border-bottom:  dashed darkcyan;
+}
+
+/*id para cambiar aspecto del titulo principal*/
+#titulo-principal{
+    background-color: midnightblue;
+    color: beige;
+    font-size: 30px;
+    letter-spacing: 2px; /*espacio entre caracteres*/
+    padding-top: 20px; /*espacio superior entre el texto y el borde del */
+    padding-bottom: 20px; /*espacio inferior entre el texto y el borde del*/
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    background-color: darkslateblue;
+}
+
+/*Pie de pagina*/
+footer{
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid; /*borde superior*/
+}
+
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.logo1{
+    width: 25px;
+    height: auto;
+}
+
+.logo2{
+    width: 25px;
+    height: auto;
+}
